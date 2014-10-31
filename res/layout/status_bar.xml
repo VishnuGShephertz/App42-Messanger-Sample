@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btn_invitation"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:onClick="showInvitations"
+        android:background="@android:drawable/ic_dialog_alert" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:onClick="showUserList"
+        android:background="@android:drawable/btn_plus" />
+
+    <Button
+        android:id="@+id/btn_group"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:onClick="showGroupList"
+        android:layout_toLeftOf="@+id/btn_add"
+        android:background="@android:drawable/ic_input_add" />
+
+    <Button
+        android:id="@+id/btn_rejection"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:onClick="showRejections"
+        android:layout_toRightOf="@+id/btn_invitation"
+        android:background="@android:drawable/ic_menu_recent_history" />
+
+</RelativeLayout>

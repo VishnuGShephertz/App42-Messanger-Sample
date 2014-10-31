@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email (required if registering)</string>
+    <string name="app_name">BuddyManagment</string>
+    <string name="signin_button">Sign in</string>
+    <string name="register_button">Register now</string>
+    <string name="error_avatar">Avatar name should not be Empty</string>
+    <string name="group_created">Group is created</string>
+    <string name="group_creation_failed">Group creation failed</string>
+    <string name="buddy_added">Friends are added in group</string>
+    <string name="blocked_user">User is blocked</string>
+    <string name="request_failed">Request failed</string>
+    <string name="invite_request">Invitaion is sent tp</string>
+    <string name="rejected_request">Friend request is rejected</string>
+    <string name="accepted_request_success">Friend request is accepted</string>
+    <string name="user_auth_failed">Authentication failed..!!</string>
+    <string name="user_creation_failed">User creation failed</string>
+    <string name="message_sent">Message sent successfully</string>
+    <string name="message_failed">Message sending failed</string>
+
+</resources>

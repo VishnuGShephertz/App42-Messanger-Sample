@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/listViewBg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/header"/>
+      <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" 
+            android:gravity="center"
+            android:paddingTop="50dp">
+   
+    <EditText    
+        android:id="@+id/uname"    
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text=""
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+        android:hint="@string/username" />
+  
+    <EditText        
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+           android:text=""
+            android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+        android:inputType="textEmailAddress"        
+        android:hint="@string/email" />
+    
+    <LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"    
+    android:layout_marginTop="50dp"
+    android:gravity="center_horizontal">
+	     <Button
+		     android:layout_height="wrap_content"
+		     android:layout_width="wrap_content"
+		     android:text="@string/signin_button"
+		     android:onClick="onSigninClicked" />
+	     
+	     <Button
+		     android:layout_height="wrap_content"
+		     android:layout_width="wrap_content"
+		     android:text="@string/register_button"
+		     android:onClick="onRegisterClicked" />
+     </LinearLayout>
+ 
+    
+      </LinearLayout>
+      </ScrollView>
+</LinearLayout>
